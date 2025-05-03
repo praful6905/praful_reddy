@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to AVJlabs devops workshop-d2</h1>
+        <p>Your lightweight Python web service</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About This App</h2>
+            <p>This is a simple Flask application running inside a Docker container. It demonstrates a basic HTML structure with CSS styling, served from a Python backend.</p>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Python 3 & Flask Framework</li>
+                <li>Responsive HTML and CSS</li>
+                <li>Dockerized for portability</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Flask App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
